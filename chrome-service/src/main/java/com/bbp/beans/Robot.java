@@ -6,5 +6,6 @@ import org.springframework.stereotype.Component;
 public class Robot {
 	public void start() {
 		System.out.println("Robot is starting");
+		//This comment added from Remote location 
 	}
 }
