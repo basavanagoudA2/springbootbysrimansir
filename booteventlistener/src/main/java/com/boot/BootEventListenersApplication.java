@@ -13,11 +13,6 @@ import com.boot.evtlistenres.BootStartingEventListener;
 @SpringBootApplication
 public class BootEventListenersApplication {
 	 public static void main(String[] args) {
-<<<<<<< HEAD
-		//commited
-=======
-		//commted 
->>>>>>> 05d19c5a29d39ef1aa286bb475168437a98c268f
 		 SpringApplication springApplication=new SpringApplicationBuilder(BootEventListenersApplication.class).listeners(new BootStartingEventListener(),new BootEnvironmentPreparedEventListener(),new BootPreparedEventListener(),new BootStartedEventListener()).build();
 		 ApplicationContext applicationContext=springApplication.run(args);
 	}
